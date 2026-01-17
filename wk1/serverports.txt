@@ -1,0 +1,20 @@
+1) What is the definition of server port?
+A virtual communication endpoint (a number from 0-65,535) on a server that directs incoming network traffic to the correct application or service.
+
+2) What is server port range?
+From 0 to 65,535.
+
+3) How many bits does number above represent?
+16 bit
+
+4) State 10 common server port?
+Port 80 (HTTP)
+Port 443 (HTTPS)
+Port 22 (SSH)
+Port 25 (SMTP)
+Port 53 (DNS)
+Port 21 (FTP)
+Port 110 (POP3)
+Port 143 (IMAP)
+Port 3389 (RDP)
+Port 3306 (MySQL
