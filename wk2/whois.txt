@@ -1,0 +1,105 @@
+Domain:
+google.com
+Registered On:
+1997-09-15
+Expires On:
+2028-09-14
+Updated On:
+2019-09-09
+Status:
+client delete prohibited
+client transfer prohibited
+client update prohibited
+server delete prohibited
+server transfer prohibited
+server update prohibited
+Name Servers:
+ns1.google.com
+ns2.google.com
+ns3.google.com
+ns4.google.com
+
+Domain:
+facebook.com
+Registered On:
+1997-03-29
+Expires On:
+2034-03-30
+Updated On:
+2025-04-23
+Status:
+client delete prohibited
+client transfer prohibited
+client update prohibited
+server delete prohibited
+server transfer prohibited
+server update prohibited
+Name Servers:
+a.ns.facebook.com
+b.ns.facebook.com
+c.ns.facebook.com
+d.ns.facebook.com
+
+Domain:
+instagram.com
+Registered On:
+2004-06-04
+Expires On:
+2034-06-04
+Updated On:
+2025-06-25
+Status:
+client delete prohibited
+client transfer prohibited
+client update prohibited
+server delete prohibited
+server transfer prohibited
+server update prohibited
+Name Servers:
+a.ns.instagram.com
+b.ns.instagram.com
+c.ns.instagram.com
+d.ns.instagram.com
+
+Domain:
+yahoo.com
+Registered On:
+1995-01-18
+Expires On:
+2027-01-19
+Updated On:
+2025-12-18
+Status:
+client delete prohibited
+client transfer prohibited
+client update prohibited
+server delete prohibited
+server transfer prohibited
+server update prohibited
+Name Servers:
+ns1.yahoo.com
+ns2.yahoo.com
+ns3.yahoo.com
+ns4.yahoo.com
+ns5.yahoo.com
+
+Domain:
+microsoft.com
+Registered On:
+1991-05-02
+Expires On:
+2026-05-03
+Updated On:
+2025-04-01
+Status:
+client delete prohibited
+client transfer prohibited
+client update prohibited
+server delete prohibited
+server transfer prohibited
+server update prohibited
+Name Servers:
+ns1-39.azure-dns.com
+ns2-39.azure-dns.net
+ns3-39.azure-dns.org
+ns4-39.azure-dns.info

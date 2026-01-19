@@ -1,0 +1,52 @@
+root@comp3134:~# nmap google.com
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-01-19 22:28 UTC
+Nmap scan report for google.com (142.250.69.46)
+Host is up (0.0100s latency).
+Other addresses for google.com (not scanned): 2607:f8b0:4020:803::200e
+rDNS record for 142.250.69.46: qro02s19-in-f14.1e100.net
+Not shown: 998 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 5.00 seconds
+
+
+root@comp3134:~# nmap -p 80 google.com
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-01-19 22:30 UTC
+Nmap scan report for google.com (142.250.69.46)
+Host is up (0.0100s latency).
+Other addresses for google.com (not scanned): 2607:f8b0:4023:1803::64 2607:f8b0:4023:1803::8a 2607:f8b0:4023:1803::66 2607:f8b0:4023:1803::71
+rDNS record for 142.250.69.46: qro02s19-in-f14.1e100.net
+
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.08 seconds
+
+
+root@comp3134:~# nmap -p 20-100 amazon.com
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-01-19 22:31 UTC
+Nmap scan report for amazon.com (98.87.170.74)
+Host is up (0.022s latency).
+Other addresses for amazon.com (not scanned): 98.87.170.71 98.82.161.185
+rDNS record for 98.87.170.74: ec2-98-87-170-74.compute-1.amazonaws.com
+Not shown: 80 filtered tcp ports (no-response)
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 1.75 seconds
+
+
+root@comp3134:~# nmap -F google.com
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-01-19 22:32 UTC
+Nmap scan report for google.com (142.250.69.110)
+Host is up (0.0098s latency).
+Other addresses for google.com (not scanned): 2607:f8b0:4023:1803::66 2607:f8b0:4023:1803::64 2607:f8b0:4023:1803::71 2607:f8b0:4023:1803::8a
+rDNS record for 142.250.69.110: pnyula-ab-in-f14.1e100.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 1.81 seconds
