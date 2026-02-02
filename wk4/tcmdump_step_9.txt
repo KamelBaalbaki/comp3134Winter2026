@@ -1,0 +1,142 @@
+root@comp3134:~# tcpdump -i eth0 tcp
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+22:16:18.008693 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 1908487973:1908488081, ack 1352998409, win 1526, length 108
+22:16:18.008809 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 108:224, ack 1, win 1526, length 116
+22:16:18.018333 IP bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898 > comp3134.ssh: Flags [P.], seq 1:37, ack 4294967180, win 2046, length 36
+22:16:18.018523 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 224:260, ack 37, win 1526, length 36
+22:16:18.032336 IP bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898 > comp3134.ssh: Flags [.], ack 260, win 2044, length 0
+22:16:18.048325 IP bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898 > comp3134.ssh: Flags [P.], seq 37:73, ack 260, win 2044, length 36
+22:16:18.048516 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 260:296, ack 73, win 1526, length 36
+22:16:18.080333 IP bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898 > comp3134.ssh: Flags [P.], seq 73:109, ack 296, win 2044, length 36
+22:16:18.080528 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 296:332, ack 109, win 1526, length 36
+22:16:18.104374 IP comp3134.37370 > 67.207.67.3.domain: Flags [S], seq 2967254441, win 64240, options [mss 1460,sackOK,TS val 376715756 ecr 0,nop,wscale 7,tfo  cookiereq,nop,nop], length 0
+22:16:18.106079 IP 67.207.67.3.domain > comp3134.37370: Flags [S.], seq 3680174732, ack 2967254442, win 65160, options [mss 1460,sackOK,TS val 3043981946 ecr 376715756,nop,wscale 10], length 0
+22:16:18.106119 IP comp3134.37370 > 67.207.67.3.domain: Flags [.], ack 1, win 502, options [nop,nop,TS val 376715757 ecr 3043981946], length 0
+22:16:18.106333 IP comp3134.37370 > 67.207.67.3.domain: Flags [P.], seq 1:49, ack 1, win 502, options [nop,nop,TS val 376715758 ecr 3043981946], length 48 13430+ PTR? 126.217.146.184.in-addr.arpa. (46)
+22:16:18.107292 IP 67.207.67.3.domain > comp3134.37370: Flags [.], ack 49, win 64, options [nop,nop,TS val 3043981948 ecr 376715758], length 0
+22:16:18.107399 IP 67.207.67.3.domain > comp3134.37370: Flags [P.], seq 1:119, ack 49, win 64, options [nop,nop,TS val 3043981948 ecr 376715758], length 118 13430 1/0/0 PTR bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca. (116)
+22:16:18.107421 IP comp3134.37370 > 67.207.67.3.domain: Flags [.], ack 119, win 502, options [nop,nop,TS val 376715759 ecr 3043981948], length 0
+22:16:18.108518 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 332:1752, ack 109, win 1526, length 1420
+22:16:18.112320 IP bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898 > comp3134.ssh: Flags [P.], seq 109:145, ack 332, win 2044, length 36
+22:16:18.112504 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 1752:1788, ack 145, win 1526, length 36
+22:16:18.120339 IP bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898 > comp3134.ssh: Flags [.], ack 1752, win 2047, length 0
+22:16:18.124311 IP bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898 > comp3134.ssh: Flags [.], ack 1788, win 2047, length 0
+22:16:18.142344 IP bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898 > comp3134.ssh: Flags [P.], seq 145:181, ack 1788, win 2047, length 36
+22:16:18.142547 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 1788:1824, ack 181, win 1526, length 36
+22:16:18.170346 IP bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898 > comp3134.ssh: Flags [P.], seq 181:217, ack 1824, win 2047, length 36
+22:16:18.170529 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 1824:1860, ack 217, win 1526, length 36
+22:16:18.203336 IP bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898 > comp3134.ssh: Flags [P.], seq 217:253, ack 1860, win 2047, length 36
+22:16:18.203521 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 1860:1896, ack 253, win 1526, length 36
+22:16:18.207933 IP comp3134.37370 > 67.207.67.3.domain: Flags [P.], seq 49:93, ack 119, win 502, options [nop,nop,TS val 376715859 ecr 3043981948], length 44 28004+ PTR? 3.67.207.67.in-addr.arpa. (42)
+22:16:18.228456 IP 67.207.67.3.domain > comp3134.37370: Flags [P.], seq 119:230, ack 93, win 64, options [nop,nop,TS val 3043982069 ecr 376715859], length 111 28004 NXDomain 0/1/0 (109)
+22:16:18.228519 IP comp3134.37370 > 67.207.67.3.domain: Flags [.], ack 230, win 502, options [nop,nop,TS val 376715880 ecr 3043982069], length 0
+22:16:18.230192 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 1896:4764, ack 253, win 1526, length 2868
+22:16:18.230314 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 4764:4860, ack 253, win 1526, length 96
+22:16:18.232295 IP bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898 > comp3134.ssh: Flags [P.], seq 253:289, ack 1896, win 2047, length 36
+22:16:18.232405 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 4860:4896, ack 289, win 1526, length 36
+22:16:18.247315 IP bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898 > comp3134.ssh: Flags [.], ack 4896, win 2047, length 0
+22:16:18.262357 IP bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898 > comp3134.ssh: Flags [P.], seq 289:325, ack 4896, win 2047, length 36
+22:16:18.262533 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 4896:4932, ack 325, win 1526, length 36
+22:16:18.292695 IP 101.47.50.237.53900 > comp3134.ssh: Flags [P.], seq 729176741:729176764, ack 3273910676, win 502, options [nop,nop,TS val 2215124700 ecr 1734703638], length 23: SSH: SSH-2.0-libssh_0.11.1
+22:16:18.292791 IP comp3134.ssh > 101.47.50.237.53900: Flags [.], ack 23, win 509, options [nop,nop,TS val 1734704526 ecr 2215124700], length 0
+22:16:18.293272 IP bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898 > comp3134.ssh: Flags [P.], seq 325:361, ack 4932, win 2047, length 36
+22:16:18.293757 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 4932:4968, ack 361, win 1526, length 36
+22:16:18.307564 IP comp3134.ssh > 101.47.50.237.53900: Flags [P.], seq 1:44, ack 23, win 509, options [nop,nop,TS val 1734704541 ecr 2215124700], length 43: SSH: SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.14
+22:16:18.311389 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 4968:5204, ack 361, win 1526, length 236
+22:16:18.311634 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 5204:6488, ack 361, win 1526, length 1284
+22:16:18.312308 IP comp3134.37370 > 67.207.67.3.domain: Flags [P.], seq 93:139, ack 230, win 502, options [nop,nop,TS val 376715964 ecr 3043982069], length 46 13264+ PTR? 237.50.47.101.in-addr.arpa. (44)
+22:16:18.312389 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 6488:6684, ack 361, win 1526, length 196
+22:16:18.315552 IP 67.207.67.3.domain > comp3134.37370: Flags [P.], seq 230:276, ack 139, win 64, options [nop,nop,TS val 3043982156 ecr 376715964], length 46 13264 ServFail 0/0/0 (44)
+22:16:18.315591 IP comp3134.37370 > 67.207.67.3.domain: Flags [.], ack 276, win 502, options [nop,nop,TS val 376715967 ecr 3043982156], length 0
+22:16:18.315792 IP comp3134.38368 > 67.207.67.2.domain: Flags [S], seq 2116399919, win 64240, options [mss 1460,sackOK,TS val 1183589160 ecr 0,nop,wscale 7,tfo  cookiereq,nop,nop], length 0
+22:16:18.316948 IP 67.207.67.2.domain > comp3134.38368: Flags [S.], seq 3006243554, ack 2116399920, win 65160, options [mss 1460,sackOK,TS val 2537807598 ecr 1183589160,nop,wscale 10], length 0
+22:16:18.316990 IP comp3134.38368 > 67.207.67.2.domain: Flags [.], ack 1, win 502, options [nop,nop,TS val 1183589161 ecr 2537807598], length 0
+22:16:18.317047 IP comp3134.38368 > 67.207.67.2.domain: Flags [P.], seq 1:47, ack 1, win 502, options [nop,nop,TS val 1183589161 ecr 2537807598], length 46 13264+ PTR? 237.50.47.101.in-addr.arpa. (44)
+22:16:18.318129 IP 67.207.67.2.domain > comp3134.38368: Flags [.], ack 47, win 64, options [nop,nop,TS val 2537807600 ecr 1183589161], length 0
+22:16:18.318340 IP 67.207.67.2.domain > comp3134.38368: Flags [P.], seq 1:47, ack 47, win 64, options [nop,nop,TS val 2537807600 ecr 1183589161], length 46 13264 ServFail 0/0/0 (44)
+22:16:18.318390 IP comp3134.38368 > 67.207.67.2.domain: Flags [.], ack 47, win 502, options [nop,nop,TS val 1183589163 ecr 2537807600], length 0
+22:16:18.321325 IP bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898 > comp3134.ssh: Flags [.], ack 6488, win 2047, length 0
+22:16:18.323319 IP bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898 > comp3134.ssh: Flags [P.], seq 361:397, ack 6488, win 2047, length 36
+22:16:18.323474 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 6684:6720, ack 397, win 1526, length 36
+22:16:18.334456 IP bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898 > comp3134.ssh: Flags [.], ack 6720, win 2047, length 0
+22:16:18.354343 IP bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898 > comp3134.ssh: Flags [P.], seq 397:433, ack 6720, win 2047, length 36
+22:16:18.354533 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 6720:6756, ack 433, win 1526, length 36
+22:16:18.383318 IP bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898 > comp3134.ssh: Flags [P.], seq 433:469, ack 6756, win 2046, length 36
+22:16:18.383473 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 6756:6792, ack 469, win 1526, length 36
+22:16:18.416366 IP bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898 > comp3134.ssh: Flags [P.], seq 469:505, ack 6792, win 2046, length 36
+22:16:18.416528 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 6792:6828, ack 505, win 1526, length 36
+22:16:18.445351 IP bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898 > comp3134.ssh: Flags [P.], seq 505:541, ack 6828, win 2046, length 36
+22:16:18.445513 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 6828:6864, ack 541, win 1526, length 36
+22:16:18.452897 IP comp3134.38368 > 67.207.67.2.domain: Flags [P.], seq 47:93, ack 47, win 502, options [nop,nop,TS val 1183589297 ecr 2537807600], length 46 33234+ PTR? 237.50.47.101.in-addr.arpa. (44)
+22:16:18.454061 IP 67.207.67.2.domain > comp3134.38368: Flags [P.], seq 47:93, ack 93, win 64, options [nop,nop,TS val 2537807735 ecr 1183589297], length 46 33234 ServFail 0/0/0 (44)
+22:16:18.454085 IP comp3134.38368 > 67.207.67.2.domain: Flags [.], ack 93, win 502, options [nop,nop,TS val 1183589298 ecr 2537807735], length 0
+22:16:18.454157 IP comp3134.37370 > 67.207.67.3.domain: Flags [P.], seq 139:185, ack 276, win 502, options [nop,nop,TS val 376716105 ecr 3043982156], length 46 33234+ PTR? 237.50.47.101.in-addr.arpa. (44)
+22:16:18.455188 IP 67.207.67.3.domain > comp3134.37370: Flags [P.], seq 276:322, ack 185, win 64, options [nop,nop,TS val 3043982296 ecr 376716105], length 46 33234 ServFail 0/0/0 (44)
+22:16:18.455206 IP comp3134.37370 > 67.207.67.3.domain: Flags [.], ack 322, win 502, options [nop,nop,TS val 376716107 ecr 3043982296], length 0
+22:16:18.476318 IP bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898 > comp3134.ssh: Flags [P.], seq 541:577, ack 6864, win 2046, length 36
+22:16:18.476480 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 6864:6900, ack 577, win 1526, length 36
+22:16:18.505352 IP bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898 > comp3134.ssh: Flags [P.], seq 577:613, ack 6900, win 2046, length 36
+22:16:18.505564 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 6900:6936, ack 613, win 1526, length 36
+22:16:18.525402 IP 101.47.50.237.53900 > comp3134.ssh: Flags [.], ack 44, win 502, options [nop,nop,TS val 2215124932 ecr 1734704541], length 0
+22:16:18.525468 IP comp3134.ssh > 101.47.50.237.53900: Flags [P.], seq 44:1164, ack 23, win 509, options [nop,nop,TS val 1734704759 ecr 2215124932], length 1120
+22:16:18.525483 IP 101.47.50.237.53900 > comp3134.ssh: Flags [P.], seq 23:959, ack 44, win 502, options [nop,nop,TS val 2215124932 ecr 1734704541], length 936
+22:16:18.537341 IP bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898 > comp3134.ssh: Flags [P.], seq 613:649, ack 6936, win 2046, length 36
+22:16:18.537542 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 6936:6972, ack 649, win 1526, length 36
+22:16:18.544559 IP comp3134.37370 > 67.207.67.3.domain: Flags [P.], seq 185:229, ack 322, win 502, options [nop,nop,TS val 376716196 ecr 3043982296], length 44 34596+ PTR? 2.67.207.67.in-addr.arpa. (42)
+22:16:18.544646 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 6972:8880, ack 649, win 1526, length 1908
+22:16:18.548031 IP 67.207.67.3.domain > comp3134.37370: Flags [P.], seq 322:433, ack 229, win 64, options [nop,nop,TS val 3043982389 ecr 376716196], length 111 34596 NXDomain 0/1/0 (109)
+22:16:18.548067 IP comp3134.37370 > 67.207.67.3.domain: Flags [.], ack 433, win 502, options [nop,nop,TS val 376716199 ecr 3043982389], length 0
+22:16:18.548564 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 8880:9108, ack 649, win 1526, length 228
+22:16:18.548763 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 9108:10456, ack 649, win 1526, length 1348
+22:16:18.548851 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 10456:11100, ack 649, win 1526, length 644
+22:16:18.548920 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 11100:11600, ack 649, win 1526, length 500
+22:16:18.548975 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 11600:11948, ack 649, win 1526, length 348
+22:16:18.549034 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 11948:12344, ack 649, win 1526, length 396
+22:16:18.549092 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 12344:12708, ack 649, win 1526, length 364
+22:16:18.549154 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 12708:13136, ack 649, win 1526, length 428
+22:16:18.549254 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 13136:13780, ack 649, win 1526, length 644
+22:16:18.549305 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 13780:13976, ack 649, win 1526, length 196
+22:16:18.557340 IP bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898 > comp3134.ssh: Flags [.], ack 12344, win 2047, length 0
+22:16:18.560346 IP bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898 > comp3134.ssh: Flags [.], ack 13976, win 2047, length 0
+22:16:18.560346 IP bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898 > comp3134.ssh: Flags [P.], seq 649:685, ack 13976, win 2047, length 36
+22:16:18.560526 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 13976:14012, ack 685, win 1526, length 36
+22:16:18.566227 IP comp3134.ssh > 101.47.50.237.53900: Flags [.], ack 959, win 502, options [nop,nop,TS val 1734704800 ecr 2215124932], length 0
+22:16:18.583320 IP bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898 > comp3134.ssh: Flags [P.], seq 685:721, ack 14012, win 2047, length 36
+22:16:18.583489 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 14012:14048, ack 721, win 1526, length 36
+22:16:18.614333 IP bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898 > comp3134.ssh: Flags [P.], seq 721:757, ack 14048, win 2047, length 36
+22:16:18.614521 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 14048:14084, ack 757, win 1526, length 36
+22:16:18.623885 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 14084:16952, ack 757, win 1526, length 2868
+22:16:18.623910 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 16952:18216, ack 757, win 1526, length 1264
+22:16:18.623963 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 18216:18572, ack 757, win 1526, length 356
+22:16:18.634342 IP bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898 > comp3134.ssh: Flags [.], ack 18572, win 2047, length 0
+22:16:18.634342 IP bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898 > comp3134.ssh: Flags [P.], seq 757:793, ack 18572, win 2047, length 36
+22:16:18.634510 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 18572:18608, ack 793, win 1526, length 36
+22:16:18.660368 IP bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898 > comp3134.ssh: Flags [P.], seq 793:829, ack 18608, win 2047, length 36
+22:16:18.660600 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 18608:18644, ack 829, win 1526, length 36
+22:16:18.691339 IP bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898 > comp3134.ssh: Flags [P.], seq 829:865, ack 18644, win 2047, length 36
+22:16:18.691499 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 18644:18680, ack 865, win 1526, length 36
+22:16:18.723345 IP bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898 > comp3134.ssh: Flags [P.], seq 865:901, ack 18680, win 2047, length 36
+22:16:18.723514 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 18680:18716, ack 901, win 1526, length 36
+22:16:18.727393 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 18716:18912, ack 901, win 1526, length 196
+22:16:18.727602 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 18912:20652, ack 901, win 1526, length 1740
+22:16:18.741321 IP bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898 > comp3134.ssh: Flags [.], ack 20652, win 2047, length 0
+22:16:18.753326 IP bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898 > comp3134.ssh: Flags [P.], seq 901:937, ack 20652, win 2047, length 36
+22:16:18.753480 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 20652:20688, ack 937, win 1526, length 36
+22:16:18.784323 IP bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898 > comp3134.ssh: Flags [P.], seq 937:973, ack 20688, win 2047, length 36
+22:16:18.784512 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 20688:20724, ack 973, win 1526, length 36
+22:16:18.813332 IP bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898 > comp3134.ssh: Flags [P.], seq 973:1009, ack 20724, win 2047, length 36
+22:16:18.813551 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 20724:20760, ack 1009, win 1526, length 36
+22:16:18.831538 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 20760:22196, ack 1009, win 1526, length 1436
+22:16:18.843366 IP bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898 > comp3134.ssh: Flags [.], ack 22196, win 2047, length 0
+22:16:18.843367 IP bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898 > comp3134.ssh: Flags [P.], seq 1009:1045, ack 22196, win 2047, length 36
+22:16:18.843573 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 22196:22232, ack 1045, win 1526, length 36
+22:16:18.875358 IP bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898 > comp3134.ssh: Flags [P.], seq 1045:1081, ack 22232, win 2047, length 36
+22:16:18.875577 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 22232:22268, ack 1081, win 1526, length 36
+22:16:18.905347 IP bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898 > comp3134.ssh: Flags [P.], seq 1081:1117, ack 22268, win 2047, length 36
+22:16:18.905508 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 22268:22304, ack 1117, win 1526, length 36
+^C
+134 packets captured
+143 packets received by filter
+0 packets dropped by kernel
+root@comp3134:~#

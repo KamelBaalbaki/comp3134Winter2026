@@ -1,0 +1,121 @@
+root@comp3134:~# tcpdump -XX -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+22:13:05.347717 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 1908355001:1908355109, ack 1352935289, win 474, length 108
+        0x0000:  fe00 0000 0101 9224 b66d 5ed9 0800 4510  .......$.m^...E.
+        0x0010:  0094 02c5 4000 4006 e5cc 8fc6 2feb b892  ....@.@...../...
+        0x0020:  d97e 0016 c2ea 71bf 2fb9 50a4 2779 5018  .~....q./.P.'yP.
+        0x0030:  01da 5249 0000 f8ac 1c33 e10e b118 9add  ..RI.....3......
+        0x0040:  686c c8c1 02c8 3cbc ca3f de4f d9b0 a43d  hl....<..?.O...=
+        0x0050:  3c39 e175 de79 58d7 c8e7 71e5 ace6 dade  <9.u.yX...q.....
+        0x0060:  524d b525 f99c c267 0cc4 0c47 5634 c9bc  RM.%...g...GV4..
+        0x0070:  b381 5816 0463 bcb0 193e d312 cf8b d982  ..X..c...>......
+        0x0080:  9b25 c006 aabf eb26 d8c8 08f3 89e3 64f4  .%.....&......d.
+        0x0090:  f972 8138 a8dd a0c9 7647 cee1 077d a701  .r.8....vG...}..
+        0x00a0:  9c2e                                     ..
+22:13:05.347779 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 108:144, ack 1, win 474, length 36
+        0x0000:  fe00 0000 0101 9224 b66d 5ed9 0800 4510  .......$.m^...E.
+        0x0010:  004c 02c6 4000 4006 e613 8fc6 2feb b892  .L..@.@...../...
+        0x0020:  d97e 0016 c2ea 71bf 3025 50a4 2779 5018  .~....q.0%P.'yP.
+        0x0030:  01da 5201 0000 1c27 d99e 1e64 9a86 3a30  ..R....'...d..:0
+        0x0040:  7630 dd6c 8fe6 3055 f93b 3047 19fe 9459  v0.l..0U.;0G...Y
+        0x0050:  69b9 4a95 7824 eda4 5532                 i.J.x$..U2
+22:13:05.347814 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 144:196, ack 1, win 474, length 52
+        0x0000:  fe00 0000 0101 9224 b66d 5ed9 0800 4510  .......$.m^...E.
+        0x0010:  005c 02c7 4000 4006 e602 8fc6 2feb b892  .\..@.@...../...
+        0x0020:  d97e 0016 c2ea 71bf 3049 50a4 2779 5018  .~....q.0IP.'yP.
+        0x0030:  01da 5211 0000 4f69 aacf 861c 23fb bcd0  ..R...Oi....#...
+        0x0040:  ed07 f3d6 5a12 99cd 4176 6663 4818 e252  ....Z...AvfcH..R
+        0x0050:  4c2a b1a5 0334 e7f4 7cbc 4136 f534 40c4  L*...4..|.A6.4@.
+        0x0060:  5532 8add 8b0c c4b1 4767                 U2......Gg
+22:13:05.347855 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 196:264, ack 1, win 474, length 68
+        0x0000:  fe00 0000 0101 9224 b66d 5ed9 0800 4510  .......$.m^...E.
+        0x0010:  006c 02c8 4000 4006 e5f1 8fc6 2feb b892  .l..@.@...../...
+        0x0020:  d97e 0016 c2ea 71bf 307d 50a4 2779 5018  .~....q.0}P.'yP.
+        0x0030:  01da 5221 0000 9940 0392 0cf9 e6fa 37be  ..R!...@......7.
+        0x0040:  92ac 27cd fcc7 8a3e 4469 7ec5 4407 5a05  ..'....>Di~.D.Z.
+        0x0050:  3661 c8c2 539c 91c3 d138 be06 9ea3 7d6c  6a..S....8....}l
+        0x0060:  de5f 4607 10dd 59e0 8ce4 07e1 f66b f473  ._F...Y......k.s
+        0x0070:  710f c5be 70fc ca3e 2360                 q...p..>#`
+22:13:05.347902 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 264:332, ack 1, win 474, length 68
+        0x0000:  fe00 0000 0101 9224 b66d 5ed9 0800 4510  .......$.m^...E.
+        0x0010:  006c 02c9 4000 4006 e5f0 8fc6 2feb b892  .l..@.@...../...
+        0x0020:  d97e 0016 c2ea 71bf 30c1 50a4 2779 5018  .~....q.0.P.'yP.
+        0x0030:  01da 5221 0000 6bf5 399e 18bf c621 5cdb  ..R!..k.9....!\.
+        0x0040:  e165 210c 8dac 9f3f 62d1 7ba7 6d63 b439  .e!....?b.{.mc.9
+        0x0050:  42c6 8153 a18b bef1 7230 8b38 5f55 9303  B..S....r0.8_U..
+        0x0060:  580d 2541 dd7c 5de6 bb57 9216 c0de b493  X.%A.|]..W......
+        0x0070:  3ae8 1887 827b c8a4 fff2                 :....{....
+22:13:05.347942 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 332:368, ack 1, win 474, length 36
+        0x0000:  fe00 0000 0101 9224 b66d 5ed9 0800 4510  .......$.m^...E.
+        0x0010:  004c 02ca 4000 4006 e60f 8fc6 2feb b892  .L..@.@...../...
+        0x0020:  d97e 0016 c2ea 71bf 3105 50a4 2779 5018  .~....q.1.P.'yP.
+        0x0030:  01da 5201 0000 eb23 5270 c0af 12ab 2060  ..R....#Rp.....`
+        0x0040:  2502 60e5 7b27 8af9 52ca 95a7 a37c 6659  %.`.{'..R....|fY
+        0x0050:  63ab 5715 c31d 87de 4c12                 c.W.....L.
+22:13:05.359287 IP bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898 > comp3134.ssh: Flags [.], ack 368, win 2044, length 0
+        0x0000:  9224 b66d 5ed9 fe00 0000 0101 0800 4528  .$.m^.........E(
+        0x0010:  0028 c821 4000 7206 eec3 b892 d97e 8fc6  .(.!@.r......~..
+        0x0020:  2feb c2ea 0016 50a4 2779 71bf 3129 5010  /.....P.'yq.1)P.
+        0x0030:  07fc 780f 0000 0000 0000 0000            ..x.........
+22:13:05.359288 IP bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898 > comp3134.ssh: Flags [P.], seq 1:37, ack 368, win 2044, length 36
+        0x0000:  9224 b66d 5ed9 fe00 0000 0101 0800 4528  .$.m^.........E(
+        0x0010:  004c c822 4000 7206 ee9e b892 d97e 8fc6  .L."@.r......~..
+        0x0020:  2feb c2ea 0016 50a4 2779 71bf 3129 5018  /.....P.'yq.1)P.
+        0x0030:  07fc b837 0000 09c5 9fde 64d5 793b e049  ...7......d.y;.I
+        0x0040:  a2c9 8aa1 3bcd 96ff f7c4 220e 7408 11e9  ....;.....".t...
+        0x0050:  48f0 4d6c a2f7 cdeb b070                 H.Ml.....p
+22:13:05.359464 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 368:404, ack 37, win 474, length 36
+        0x0000:  fe00 0000 0101 9224 b66d 5ed9 0800 4510  .......$.m^...E.
+        0x0010:  004c 02cb 4000 4006 e60e 8fc6 2feb b892  .L..@.@...../...
+        0x0020:  d97e 0016 c2ea 71bf 3129 50a4 279d 5018  .~....q.1)P.'.P.
+        0x0030:  01da 5201 0000 9382 76c2 7ff1 a0d7 c243  ..R.....v......C
+        0x0040:  1e5f 6e8d c32e f8a4 8a4f d890 aca5 b248  ._n......O.....H
+        0x0050:  89e4 d740 09fc a077 be35                 ...@...w.5
+22:13:05.382297 IP bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898 > comp3134.ssh: Flags [P.], seq 37:73, ack 404, win 2044, length 36
+        0x0000:  9224 b66d 5ed9 fe00 0000 0101 0800 4528  .$.m^.........E(
+        0x0010:  004c c823 4000 7206 ee9d b892 d97e 8fc6  .L.#@.r......~..
+        0x0020:  2feb c2ea 0016 50a4 279d 71bf 314d 5018  /.....P.'.q.1MP.
+        0x0030:  07fc bbf8 0000 b9b3 716d 6480 590c 93d7  ........qmd.Y...
+        0x0040:  5754 6c88 3826 75d5 99b1 94c6 10d1 ba84  WTl.8&u.........
+        0x0050:  8860 480a dc24 5403 d2e3                 .`H..$T...
+22:13:05.382504 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 404:440, ack 73, win 474, length 36
+        0x0000:  fe00 0000 0101 9224 b66d 5ed9 0800 4510  .......$.m^...E.
+        0x0010:  004c 02cc 4000 4006 e60d 8fc6 2feb b892  .L..@.@...../...
+        0x0020:  d97e 0016 c2ea 71bf 314d 50a4 27c1 5018  .~....q.1MP.'.P.
+        0x0030:  01da 5201 0000 0401 8f6e a801 fd78 08a7  ..R......n...x..
+        0x0040:  ad33 1819 87e1 c5d1 6911 8f3a 7100 3e83  .3......i..:q.>.
+        0x0050:  4892 6a07 18c3 b32f a687                 H.j..../..
+22:13:05.411295 IP bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898 > comp3134.ssh: Flags [P.], seq 73:109, ack 440, win 2044, length 36
+        0x0000:  9224 b66d 5ed9 fe00 0000 0101 0800 4528  .$.m^.........E(
+        0x0010:  004c c824 4000 7206 ee9c b892 d97e 8fc6  .L.$@.r......~..
+        0x0020:  2feb c2ea 0016 50a4 27c1 71bf 3171 5018  /.....P.'.q.1qP.
+        0x0030:  07fc 0b8b 0000 21ec 21b8 cb69 2ced 7e10  ......!.!..i,.~.
+        0x0040:  2de8 51ce 0ae2 fce5 3a54 d918 841e 8b92  -.Q.....:T......
+        0x0050:  baed a219 03c4 fbe1 aa72                 .........r
+22:13:05.411479 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 440:476, ack 109, win 474, length 36
+        0x0000:  fe00 0000 0101 9224 b66d 5ed9 0800 4510  .......$.m^...E.
+        0x0010:  004c 02cd 4000 4006 e60c 8fc6 2feb b892  .L..@.@...../...
+        0x0020:  d97e 0016 c2ea 71bf 3171 50a4 27e5 5018  .~....q.1qP.'.P.
+        0x0030:  01da 5201 0000 3d05 5225 c5cd 3b12 3211  ..R...=.R%..;.2.
+        0x0040:  249a 45db 161b 7db5 d4d6 d066 b2ac d9a2  $.E...}....f....
+        0x0050:  fe43 c542 0724 cbbf 8bde                 .C.B.$....
+22:13:05.443294 IP bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898 > comp3134.ssh: Flags [P.], seq 109:145, ack 476, win 2043, length 36
+        0x0000:  9224 b66d 5ed9 fe00 0000 0101 0800 4528  .$.m^.........E(
+        0x0010:  004c c825 4000 7206 ee9b b892 d97e 8fc6  .L.%@.r......~..
+        0x0020:  2feb c2ea 0016 50a4 27e5 71bf 3195 5018  /.....P.'.q.1.P.
+        0x0030:  07fb c917 0000 a848 655d 06f4 e29f ecbb  .......He]......
+        0x0040:  eddb 5b6c f938 1267 80ce 1477 5456 2d35  ..[l.8.g...wTV-5
+        0x0050:  f8e6 69fd 48d2 17d8 9ab6                 ..i.H.....
+22:13:05.443459 IP comp3134.ssh > bras-base-toroon01zb3-grc-71-184-146-217-126.dsl.bell.ca.49898: Flags [P.], seq 476:512, ack 145, win 474, length 36
+        0x0000:  fe00 0000 0101 9224 b66d 5ed9 0800 4510  .......$.m^...E.
+        0x0010:  004c 02ce 4000 4006 e60b 8fc6 2feb b892  .L..@.@...../...
+        0x0020:  d97e 0016 c2ea 71bf 3195 50a4 2809 5018  .~....q.1.P.(.P.
+        0x0030:  01da 5201 0000 9f53 6c0a 8d87 8e25 1c4d  ..R....Sl....%.M
+        0x0040:  331f 17cc 7d98 f523 0047 0106 6e12 5e07  3...}..#.G..n.^.
+        0x0050:  16be bff3 4996 b432 09b7                 ....I..2..
+^C
+15 packets captured
+35 packets received by filter
+0 packets dropped by kernel
+root@comp3134:~#
