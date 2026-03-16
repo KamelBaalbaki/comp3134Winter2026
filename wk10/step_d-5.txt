@@ -1,0 +1,5 @@
+URL encoded characters bypass basic filters.
+
+%2e%2e%2f is the encoded form of ../
+
+Attackers can still access parent directories and explore server files using encoded traversal sequences.

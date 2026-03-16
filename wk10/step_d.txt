@@ -1,0 +1,3 @@
+The script accepts user input from the URL parameter without validation, so when an invalid folder is entered (like hello), the server shows a PHP error message.
+
+The error message may reveal server paths, system structure, and configuration which attackers can use for reconnaissance.

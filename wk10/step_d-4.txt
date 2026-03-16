@@ -1,0 +1,2 @@
+The script allows directory traversal using ../../, and the attacker can view folders outside the web root directory. So system directories like /etc, /home, and other server files may become visible.
+This exposes server structure and potentially sensitive files.

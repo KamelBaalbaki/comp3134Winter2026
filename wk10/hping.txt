@@ -1,0 +1,8 @@
+# 1) 10,000 TCP packets
+hping3 -S --flood --rand-source -c 10000 159.203.44.155
+
+# 2) 9000 UDP packets
+hping3 --udp -a 1.2.3.4 -c 9000 -i u10000 159.203.44.155
+
+# 3) 11000 ICMP packets
+hping3 --icmp -d 1024 -c 11000 -i u13333 159.203.44.155
