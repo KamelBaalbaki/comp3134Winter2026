@@ -1,0 +1,5 @@
+Initially, the application was vulnerable to CSRF attacks because it accepted all POST requests without verifying their origin.
+After implementing CSRF protection using a session-based token, only requests containing a valid confirmation token are accepted.
+When using csfr_form.php, the request succeeds because the token in the session matches the token sent in the form.
+When using the malicious csfr.html page, the request fails because it does not include the correct session token. The server detects this mismatch and blocks the request.
+This demonstrates that CSRF protection works by ensuring that only legitimate users with valid sessions can perform actions.

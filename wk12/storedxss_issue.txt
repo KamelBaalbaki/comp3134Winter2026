@@ -1,0 +1,3 @@
+When accessing storexss.php, the application reads malicious JavaScript stored in a file and renders it directly in the browser. 
+The script executes automatically and redirects the user to this page "directory_traversal_part1.php". 
+Even though the destination page does not exist, the redirection confirms that the injected script was successfully executed, demonstrating a Stored XSS vulnerability.
