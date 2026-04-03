@@ -1,0 +1,11 @@
+1) Valid word:
+The application displays the entered word correctly.
+
+2) Invalid word:
+The application displays the text as entered without validation.
+
+3) Script in form:
+The script is not executed and is displayed as plain text due to input sanitization.
+
+4) Script in URL:
+The script is not executed and appears as text, preventing XSS attacks.

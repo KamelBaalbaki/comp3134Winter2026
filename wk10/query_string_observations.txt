@@ -1,0 +1,11 @@
+1) Valid word:
+The application displays the entered word correctly on the page.
+
+2) Invalid word:
+The application still displays the entered text even if it is not a valid word. There is no validation or error handling.
+
+3) Script in form:
+The script is executed by the browser, and an alert box appears. This shows the application is vulnerable to XSS attacks.
+
+4) Script in URL:
+The script is executed again when passed through the URL, triggering an alert box. This confirms the application does not sanitize user input.
